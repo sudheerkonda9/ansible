@@ -1,7 +1,7 @@
 
 #Below one server belongs to mongodb group 
 [mongodb]
-roboshop-us-dev-db-mongodbdddd-01.joindevops.icu
+roboshop-us-dev-db-mongodb-01.joindevops.icu
 #Below two servers belongs to mysql group 
 [mysql]
 roboshop-us-dev-db-mysql-01.joindevops.icu
