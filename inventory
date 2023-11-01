@@ -1,0 +1,31 @@
+
+#Below one server belongs to mongodb group 
+[mongodb]
+roboshop-us-dev-db-mongodb-01.joindevops.icu
+#Below two servers belongs to mysql group 
+[mysql]
+roboshop-us-dev-db-mysql-01.joindevops.icu
+roboshop-us-dev-db-mysql-02.joindevops.icu
+
+#When ever there is an update for the cart component you can just refer to app cart and at a time you can fetch all the servers and you can push the updates that is the advantage
+
+#Below three servers belongs to MySQL group
+[cart]
+roboshop-in-prod-app-cart-01.joindevops.icu
+roboshop-in-prod-app-cart-02.joindevops.icu
+roboshop-in-prod-app-cart-03.joindevops.icu
+
+[user]
+roboshop-in-prod-app-user-01.joindevops.icu
+roboshop-in-prod-app-user-02.joindevops.icu
+
+#below [db:children] is group of groups and mongodb and sql are children here
+[db:children]
+mongodb
+mysql
+#if you want push updates to entire API tier , Backend/db tier then you will refer this app 
+[app:children]
+cart
+user
+
+
