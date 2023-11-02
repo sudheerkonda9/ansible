@@ -1,19 +1,20 @@
--name: sivakumar
- DOB: 07-07-07
- #this is Address map, which is a key value pair
- address:
-  city: Guntur
-  state: AndhraPradesh
-  Country: India
-  #This is addresses list abd addresses has 2 items in the list which is permanent address and current address
+- name: sivakumar
+  DOB: 07-07-07
+  #this is Address map, which is a key value pair (i.e map(address) 1:1)
+  address:
+    city: Guntur
+    state: AndhraPradesh
+    Country: India
+  - type: currentAddress
+  #This is addresses list abd addresses has 2 items in the list which is permanent address and current address i.e map(addresses) 1(addresses):Many(PermanentAddress, currentAddress)
   addresses:
-  -type: PermanentAddress
-   city: Guntur
-   State: Andhraprdesh
-   country: India
-  -type: currentAddress
-   city: Sacramento
-   state: California
-   country: USA
+  - type: PermanentAddress
+    city: Guntur
+    State: Andhraprdesh
+    country: India
+  - type: currentAddress
+    city: Sacramento
+    state: California
+    country: USA
      
   
