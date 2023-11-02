@@ -6,7 +6,7 @@
     state: AndhraPradesh
     Country: India
   - type: currentAddress
-  #This is addresses list abd addresses has 2 items in the list which is permanent address and current address i.e map(addresses) 1(addresses):Many(PermanentAddress, currentAddress)
+    #This is addresses list abd addresses has 2 items in the list which is permanent address and current address i.e map(addresses) 1(addresses):Many(PermanentAddress, currentAddress)
   addresses:
   - type: PermanentAddress
     city: Guntur
