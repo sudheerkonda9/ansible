@@ -1,6 +1,6 @@
 - name: sivakumar
-  dob: 07-07-07
-  #this is Address map, which is a key value pair (i.e map(address) 1:1)
+   dob: 07-07-07
+   #this is Address map, which is a key value pair (i.e map(address) 1:1)
   address:
     city: Guntur
     state: AndhraPradesh
