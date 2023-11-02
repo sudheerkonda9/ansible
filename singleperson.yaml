@@ -1,0 +1,19 @@
+-name: sivakumar
+ DOB: 07-07-07
+ #this is Address map, which is a key value pair
+ address:
+  city: Guntur
+  state: AndhraPradesh
+  Country: India
+  #This is addresses list abd addresses has 2 items in the list which is permanent address and current address
+  addresses:
+  -type: PermanentAddress
+   city: Guntur
+   State: Andhraprdesh
+   country: India
+  -type: currentAddress
+   city: Sacramento
+   state: California
+   country: USA
+     
+  
