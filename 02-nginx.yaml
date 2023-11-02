@@ -3,11 +3,11 @@
   become: yes
   #list
   tasks:
-  - name: Install nginx
+  - name: Install nginxXX
     ansible.builtin.yum:
       name: nginx
       state: installed
-  - name: Start nginx
+  - name: Start nginxXXX
     ansible.builtin.service:
       name: nginx
       state: started
