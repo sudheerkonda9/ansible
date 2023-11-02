@@ -2,5 +2,5 @@
   hosts: mongodb
   tasks:
   - name: Printing text in output
-    system.builtin.debug:
+    ansible.builtin.debug:
       msg: "Hello world, I am learning DevOps"
