@@ -11,4 +11,4 @@
       msg: "Hello world, I am learning DevOps"
   - name: Printing the variables
     ansible.builtin.debug:
-      msg: "Hello world, I am {{Student}} learning {{course}} and the trainer is {{Trainer}} and the     duration is {{duration}}"
+      msg: "Hello world, I am {{Student}} learning {{course}} and the trainer is {{Trainer}}"
