@@ -7,5 +7,5 @@
       name: "{{item}}"
       state: installed
     loop:
-    - nginx
+    #- nginx
     - postmap
