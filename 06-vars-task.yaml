@@ -11,8 +11,6 @@
   - name: Inherit values from play level and add variables and override
     vars:
     - money: "222200 RS"
-      money: "444444 RS"
       houses: "3 houses"
-      houses: "4 houses"
     ansible.builtin.debug:
       msg: "MONEY: {{money}} , Land: {{land}}, Houses: {{houses}}"
