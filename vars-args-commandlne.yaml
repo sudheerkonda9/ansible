@@ -1,0 +1,6 @@
+- name: Printing arguements from command line
+  hosts: localhost
+  task:
+  - name: Printing args from command
+    ansible.builtin.debug:
+      msg: "The value of variable course is {{course}}"
