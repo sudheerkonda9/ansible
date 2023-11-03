@@ -8,9 +8,9 @@
   - name: Inherit values from play level or parent level
     ansible.builtin.debug:
       msg: "MONEY: {{money}} , Land: {{land}}"
-    money: "2222222"
-    land: "5555 Hectars"
-  - name: Inherit values from play level and add and override
+      money: "2222222"
+      land: "5555 Hectars"
+  - name: Inherit values from play level and add variables and override
     vars:
     - money: "222200 RS"
       houses: "3 houses"
